@@ -1,0 +1,340 @@
+@font-face {
+  font-family:'Milk-And-Honey';
+  src: url(MilkAndHoney-Regular.woff2) format('truetype');
+}
+
+@font-face {
+  font-family:'DreamOrphans-Bold';
+  src: url(DreamOrphans-Bold.woff) format('woff'), 
+      url(DreamOrphans-Bold) format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TypoGraphica";
+  src: url(TypoGraphica_demo.woff) format("woff");
+}
+
+@font-face {
+  font-family:'ResolideSerif';
+  src: url(ResolideSerif-Regular.woff2) format("woff2"),
+        url(ResolideSerif-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family:"Bienetresocial";
+  src: url(Bienetresocial.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "BookAntiqua";
+  src: url(BookAntiqua.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "BookAntiqua-BoldItalic";
+  src: url(BookAntiqua-BoldItalic.woff2) format("woff2");
+}
+
+.col {
+  background-color: aqua;
+}
+
+a {
+  text-decoration: none;
+  color: #d8cbdc;
+}
+
+.logo {
+    font-family: 'Milk-And-Honey';
+    font-size: 90px;
+    text-align: center;
+    margin: 0px;
+}
+
+.barradenavegacion {
+    background-color: #462b56;
+    height: 40px;
+    display: flex;
+  justify-content: center;   
+  align-items: center;       
+  text-align: center;
+}
+
+.barradenav {
+    background-color: #462b56;
+    color:#d8cbdc ;
+    height: 100px;
+    display: flex;
+    padding-top: 4px;
+   border-top: 20px solid #462b56;
+  justify-content: center;   
+  align-items: center;       
+  text-align: center;
+}
+
+.collapse {
+  background-color: #d8cbdc;
+}
+
+.navbar {
+  background-color: #d8cbdc;
+}
+
+.img1 {
+  width: 100%;
+  height: auto;
+  justify-content: center;   
+  align-items: center;
+}
+
+.img2 {
+  width: 100%;
+  height: auto;
+}
+
+.img3 {
+  width: 100%;
+  height: auto;
+}
+
+.barraenmovimiento {
+  background-color: #414c08;
+  font-family: "Bienestresocial";
+  font-size: 15px;
+  margin: 0 30px;
+  white-space: nowrap;
+  display: flex;
+  width: max-content; /* Obliga a la barra a ser tan ancha como sus textos */
+  animation: scroll 15s linear infinite;
+}
+
+.movimiento {
+   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation: scroll-horizontal 20s linear infinite;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); } /* Mueve la mitad para el efecto infinito */
+}
+
+
+.nvcoleccion {
+  font-family: "ResolideSerif";
+  font-size: 50px;
+  justify-content: center;
+  display: flex;
+}
+
+.botoncoleccion{
+background-color: #c4b99b;
+color: #462b56;
+font-size: 20px;
+  width: 700px;
+  height: 80px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+    margin: 20px auto;
+  font-family: "ResolideSerif";
+}
+
+
+.portada {
+  display: flex;
+  justify-content: center; 
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;       
+}
+
+.card {
+    height: 100%;       
+    display: flex;
+}
+
+
+.btn {
+  background-color: #462b56;
+  color: #e7cbd7;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  font-family: 'DreamOrphans-Bold';
+  text-align: center;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.container-fluid {
+  background-color: #8873a3;
+}
+
+.anuncio-container {
+  position: relative;
+  max-width: 400px; 
+  margin: 0 auto;
+  overflow: visible; 
+}
+
+  .imagen-anuncio {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hotspot {
+  position: absolute;
+  z-index: 10;
+}
+
+.hotspot-btn {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #7999af; 
+  border: 2px solid #294a6c;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  outline: none;
+    animation: pulso-interactivo 2s infinite;
+}
+
+.hotspot-btn:hover, 
+.hotspot-btn:focus {
+  transform: scale(1.2);
+  background-color: #1a2236; 
+}
+
+.tarjeta-info {
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  width: 220px;
+  background-color: #ffffff;
+  color: #333333;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  opacity: 0;
+  pointer-events: none; /* Evita que estorbe mientras está oculta */
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 20;
+  font-family: "Bienetresocial";
+}
+
+.tarjeta-info::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 8px;
+  border-style: solid;
+  border-color: #ffffff transparent transparent transparent;
+  font-family: "Bienetresocial";
+}
+
+.tarjeta-info h4 {
+  margin: 0 0 5px 0;
+  font-size: 14px;
+  color: #0d5c5a; 
+  font-family: "Bienestresocial";
+}
+
+.tarjeta-info p {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family:"Bienetresocial";
+}
+
+.hotspot-btn:hover + .tarjeta-info,
+.hotspot-btn:focus + .tarjeta-info {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateX(-50%) translateY(0);
+}
+
+@keyframes pulso-interactivo {
+  0% {
+    box-shadow: 0 0 0 0 rgba(209, 66, 122, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(209, 66, 122, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(209, 66, 122, 0);
+  }
+}
+
+.reviste-footer {
+    background-color: #462b56;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.reviste-brand {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    margin-bottom: 40px;
+    letter-spacing: -2px;
+}
+
+.reviste-social {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+
+
+.social-circle:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+
+.reviste-divider {
+    border: 0;
+    border-top: 1px solid #462b56;
+    max-width: 1000px;
+    margin: 0 auto 40px;
+}
+
+.reviste-links {
+    font-size: 11px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.reviste-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.reviste-location {
+    display: inline-block;
+    border: 1px solid #462b56;
+    padding: 10px 30px;
+    margin: 40px 0;
+    font-size: 14px;
+    cursor: pointer;
+}

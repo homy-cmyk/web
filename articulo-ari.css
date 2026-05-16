@@ -1,0 +1,285 @@
+@font-face {
+  font-family:'Milk-And-Honey';
+  src: url(MilkAndHoney-Regular.woff2) format('truetype');
+}
+
+@font-face {
+  font-family:'DreamOrphans-Bold';
+  src: url(DreamOrphans-Bold.woff) format('woff'), 
+      url(DreamOrphans-Bold) format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TypoGraphica";
+  src: url(TypoGraphica_demo.woff) format("woff");
+}
+
+@font-face {
+  font-family:'ResolideSerif';
+  src: url(ResolideSerif-Regular.woff2) format("woff2"),
+        url(ResolideSerif-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family:"Bienetresocial";
+  src: url(Bienetresocial.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "BookAntiqua";
+  src: url(BookAntiqua.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "BookAntiqua-BoldItalic";
+  src: url(BookAntiqua-BoldItalic.woff2) format("woff2");
+}
+
+.col {
+  background-color: aqua;
+}
+
+a {
+  text-decoration: none;
+  color: #d8cbdc;
+}
+
+.logo {
+    font-family: 'Milk-And-Honey';
+    font-size: 90px;
+    text-align: center;
+    margin: 0px;
+}
+
+.barradenavegacion {
+    background-color: #462b56;
+    height: 40px;
+    display: flex;
+  justify-content: center;   
+  align-items: center;       
+  text-align: center;
+}
+
+.barradenav {
+    background-color: #462b56;
+    color:#d8cbdc ;
+    height: 100px;
+    display: flex;
+    padding-top: 4px;
+   border-top: 20px solid #462b56;
+  justify-content: center;   
+  align-items: center;       
+  text-align: center;
+}
+
+.collapse {
+  background-color: #d8cbdc;
+}
+
+.inicioimg {
+    width: 100%;
+    height: auto;
+    display: flex;
+  justify-content: center;   
+  align-items: center; 
+}
+
+h1 {
+    font-family: "DreamOrphans-Bold";
+}
+.inic {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 25px;
+}
+
+.texto {
+    font-family: "'Times New Roman', Times, serif";
+    text-align: center;
+    font-size: 16px;
+}
+
+
+.parraf {
+    font-family: "Bienetresocial";
+    text-align: left;
+    margin: 25px;
+}
+
+.subuno {
+    font-family: "DreamOrphans-Bold";
+    text-align: left;
+    font-size: 22px;
+    margin: 25px;
+}
+
+.habuno {
+    font-family: "Bienetresocial";
+    text-align: left;
+    font-size: 18px;
+    margin: 25px;
+}
+
+.habparruno {
+    font-family: "Bienetresocial";
+    text-align: left;
+    margin: 25px;
+}
+
+.habdos {
+    font-family: "Bienetresocial";
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 25px;
+}
+
+.habparrdos {
+    font-family: "Bienetresocial";
+    text-align: left;
+    margin: 25px;
+}
+
+.habtres {
+    font-family: "Bienetresocial";
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 25px;
+}
+
+.habparrtres {
+    font-family: "Bienetresocial";
+    text-align: left;
+    margin: 25px;
+}
+
+.habcuat {
+    font-family: "Bienetresocial";
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 25px;
+}
+
+.habparrcuat {
+    font-family: "Bienetresocial";
+    text-align: left;
+    margin: 25px;
+}
+
+.habcinc {
+    font-family: "Bienetresocial";
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 25px;
+}
+
+.habparrcinc {
+    font-family: "Bienetresocial";
+    text-align: left;
+    margin: 25px;
+}
+
+.habseis {
+    font-family: "Bienetresocial";
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 25px;
+}
+
+.habparrseis {
+    font-family:"Bienetresocial";
+    text-align: left;
+    margin: 25px;
+}
+
+.imgtexto {
+    width: 700px;
+    height: auto;
+    align-items: center;
+    margin: 30px;
+}
+
+.imagencons {
+    width: 300px;
+    height: auto;
+}
+
+.imagendos {
+    width: 300px;
+    height: auto;
+}
+
+.card-body {
+    display: flex;
+  justify-content: center;   
+  align-items: center; 
+  text-align: center;
+}
+
+.reviste-footer {
+    background-color: #462b56;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.reviste-brand {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    margin-bottom: 40px;
+    letter-spacing: -2px;
+}
+
+.reviste-social {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+
+
+.social-circle:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+
+.reviste-divider {
+    border: 0;
+    border-top: 1px solid #462b56;
+    max-width: 1000px;
+    margin: 0 auto 40px;
+}
+
+.reviste-links {
+    font-size: 11px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.reviste-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.reviste-location {
+    display: inline-block;
+    border: 1px solid #462b56;
+    padding: 10px 30px;
+    margin: 40px 0;
+    font-size: 14px;
+    cursor: pointer;
+}

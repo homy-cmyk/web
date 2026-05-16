@@ -1,0 +1,267 @@
+@font-face {
+  font-family:'Milk-And-Honey';
+  src: url(MilkAndHoney-Regular.woff2) format('truetype');
+}
+
+@font-face {
+  font-family:'DreamOrphans-Bold';
+  src: url(DreamOrphans-Bold.woff) format('woff'), 
+      url(DreamOrphans-Bold) format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TypoGraphica";
+  src: url(TypoGraphica_demo.woff) format("woff");
+}
+
+@font-face {
+  font-family:'ResolideSerif';
+  src: url(ResolideSerif-Regular.woff2) format("woff2"),
+        url(ResolideSerif-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family:"Bienetresocial";
+  src: url(Bienetresocial.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "BookAntiqua";
+  src: url(BookAntiqua.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "BookAntiqua-BoldItalic";
+  src: url(BookAntiqua-BoldItalic.woff2) format("woff2");
+}
+
+a {
+    text-decoration: none;
+    color: #d8cbdc;
+}
+
+.nav-item-font a {
+    color: #e7cbd7;
+    text-decoration: none;
+}
+
+.logo {
+    font-family: 'Milk-And-Honey';
+    font-size: 90px;
+    text-align: center;
+    margin: 0px;
+}
+
+.barradenavegacion {
+    background-color: #462b56;
+    height: 40px;
+    display: flex;
+  justify-content: center;   
+  align-items: center;       
+  text-align: center;
+}
+
+.barradenav {
+    background-color: #462b56;
+    color:#d8cbdc ;
+    height: 100px;
+    display: flex;
+    padding-top: 4px;
+   border-top: 20px solid #462b56;
+  justify-content: center;   
+  align-items: center;       
+  text-align: center;
+}
+
+.collapse {
+  background-color: #d8cbdc;
+}
+
+.texto h1 {
+    font-family: 'DreamOrphans-Bold';
+    font-size: 40px;
+    text-align: center;
+    color: #462b56;
+}
+
+body, h1, p, .texto {
+    font-family: "Bienetresocial";
+}
+
+.imagencons {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* barra inferior */
+
+.reviste-footer {
+    background-color: #462b56;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.reviste-brand {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    margin-bottom: 40px;
+    letter-spacing: -2px;
+}
+
+.reviste-social {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+
+.reviste-dropdowns {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}
+
+.reviste-divider {
+    border: 0;
+    border-top: 1px solid #462b56;
+    max-width: 1000px;
+    margin: 0 auto 40px;
+}
+
+
+
+.reviste-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.reviste-location {
+    display: inline-block;
+    border: 1px solid #462b56;
+    padding: 10px 30px;
+    margin: 40px 0;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.reviste-copy {
+    font-size: 10px;
+    color: #666;
+    
+}
+
+.reviste-footer {
+    background-color: #462b56;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.reviste-brand {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    margin-bottom: 40px;
+    letter-spacing: -2px;
+}
+
+.reviste-social {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.social-circle {
+    width: 44px;
+    height: 44px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.social-circle:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.reviste-dropdowns {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}
+
+.reviste-divider {
+    border: 0;
+    border-top: 1px solid #462b56;
+    max-width: 1000px;
+    margin: 0 auto 40px;
+}
+
+.reviste-links {
+    font-size: 11px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.reviste-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.reviste-location {
+    display: inline-block;
+    border: 1px solid #462b56;
+    padding: 10px 30px;
+    margin: 40px 0;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* imagen del costado derecho */
+
+.imagen-adaptable {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 8px; /* Bordes suaves como en tu diseño */
+    display: block;
+    margin: 0px;
+}
+
+/* Ajuste específico para cuando la pantalla es pequeña */
+@media (max-width: 768px) {
+    .imagen-adaptable {
+        max-width: 350px; /* Evita que la imagen crezca demasiado en móviles */
+        margin-bottom: 40px; /* Separa la imagen de lo que sigue abajo */
+    }
+    
+    .parraf {
+        margin: 15px; /* Reduce un poco los márgenes laterales en celular */
+        text-align: left; /* A veces el justificado se ve mal en pantallas muy angostas */
+    }
+}

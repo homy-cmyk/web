@@ -1,0 +1,97 @@
+@font-face {
+  font-family:'Milk-And-Honey';
+  src: url(MilkAndHoney-Regular.woff2) format('truetype');
+}
+
+@font-face {
+  font-family:'DreamOrphans-Bold';
+  src: url(DreamOrphans-Bold.woff) format('woff'), 
+      url(DreamOrphans-Bold) format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TypoGraphica";
+  src: url(TypoGraphica_demo.woff) format("woff");
+}
+
+@font-face {
+  font-family:'ResolideSerif';
+  src: url(ResolideSerif-Regular.woff2) format("woff2"),
+        url(ResolideSerif-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family:"Bienetresocial";
+  src: url(Bienetresocial.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "BookAntiqua";
+  src: url(BookAntiqua.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "BookAntiqua-BoldItalic";
+  src: url(BookAntiqua-BoldItalic.woff2) format("woff2");
+}
+
+.col {
+  background-color: aqua;
+}
+
+a {
+  text-decoration: none;
+  color: #d8cbdc;
+}
+
+.logo {
+    font-family: 'Milk-And-Honey';
+    font-size: 90px;
+    text-align: center;
+    margin: 0px;
+}
+
+.barradenavegacion {
+    background-color: #462b56;
+    height: 40px;
+    display: flex;
+  justify-content: center;   
+  align-items: center;       
+  text-align: center;
+}
+
+.barradenav {
+    background-color: #462b56;
+    color:#d8cbdc ;
+    height: 100px;
+    display: flex;
+    padding-top: 4px;
+   border-top: 20px solid #462b56;
+  justify-content: center;   
+  align-items: center;       
+  text-align: center;
+}
+
+.ropa1 {
+    .ropa1 {
+    width: 600px;      /* El mismo ancho que tu imagen */
+    margin-left: 20px; /* Para que coincida con el margen que le diste a la foto */
+}
+}
+.Ropaimagen1{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 600px;
+    height: auto;
+    display: block;
+}
+
+.piedefoto {
+    font-family: "BookAntiqua-BoldItalic" ;
+    font-size: 12px;
+    text-align: left;
+    margin-left: 100px;
+}
